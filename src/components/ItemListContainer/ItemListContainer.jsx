@@ -4,7 +4,7 @@ import { getProducts } from "../../asyncMock";
 import { useParams } from "react-router-dom";
 import { ItemList } from "../ItemList/ItemList";
 
-const itemListContainer = ({greeting}) =>{
+const ItemListContainer = ({greeting}) =>{
     const [products, setProducts] = useState([])
     const {categoryId} = useParams()
 
@@ -29,4 +29,4 @@ const itemListContainer = ({greeting}) =>{
     )
 }
 
-export default itemListContainer;
+export default ItemListContainer;
