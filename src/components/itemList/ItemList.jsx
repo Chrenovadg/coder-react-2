@@ -1,6 +1,6 @@
 import { Item } from '../Item/Item'
 
-export const ItemList = ({ products }) => {
+const ItemList = ({ products }) => {
     
   return (
     <div className='ListGroup'>
@@ -8,3 +8,4 @@ export const ItemList = ({ products }) => {
     </div>
   )
 }
+export default ItemList;
