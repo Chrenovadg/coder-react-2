@@ -46,7 +46,3 @@ export const getProductById = (productId) => {
     })
 }
 
-/* export const getProductsByCategory = () => {
-   
-} */
-

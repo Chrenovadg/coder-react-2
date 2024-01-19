@@ -1,5 +1,5 @@
 import { Container } from '@mui/material'
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 
 export const ItemCount = ({ stock, initial, onAdd }) => {
