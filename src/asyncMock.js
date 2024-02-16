@@ -28,7 +28,7 @@ const products = [
         description: 'descripcion de la latita'
     },
     
-]
+]/*  */
 
 export const getProducts = () => {
     return new Promise((resolve) => {
